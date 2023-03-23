@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Document</title>
+    </head>
+        
+    <body>
+    
+        <header>
+        
+            <h1>Weather Dashboard</h1>
+
+        </header>
+
+        <section class="weather">
+            <form class="weather-by-city">
+                <h3>Search for a City:</h3>
+                <input type="text" class="form-input-city" id="city-input" placeholder="Any City">
+                <button class="btn-city-search">Search</button>
+            </form>
+
+            <container id="current-weather" class="current-weather-display">
+                <h1 id="current-day"></h1>
+
+            </container>
+
+        </section>
+
+        <section class="info">
+
+            <ul>
+                <button id="trenton" class="state-button hide">Trenton</button>
+                <button id="new-york" class="state-button">New York</button>
+                <button id="philadelphia" class="state-button">Philadelphia</button>
+                <button id="boston" class="state-button">Boston</button>
+                <button id="washington-dc" class="state-button">Washington DC</button>
+                <button id="miami" class="state-button">Miami</button>
+                <button id="manchester" class="state-button">Manchester</button>
+                <button id="charlotte" class="state-button">Charlotte</button>
+            </ul>
+
+            
+            <container class="forecast-5">
+                
+                <h1>5-Day Forecast:</h1>
+                
+                <container id="forecast" class="forecast-display">
+                    <p class="day1"></p>
+                    <p class="day2"></p>
+                    <p class="day3"></p>
+                    <p class="day4"></p>
+                    <p class="day5"></p>
+                </container>
+                
+            </container>
+        </section>
+
+
+            
+
+
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
