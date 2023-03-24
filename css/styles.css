@@ -89,30 +89,32 @@ ul {
 
 .info {
     display: flex;
- 
-    
-
-}
+ }
 
 
 .forecast-5 {
     margin: 10px 10px 10px 15px;
-    width: 200px;
-    padding: 0px 0px 5px 0px;
+    padding: 5px;
+    width: 1000px;
+    height: 500px;
     
 }
 
 .forecast-display {
     display: flex;
     margin: 0px;
+    width: 800px;
 
 }
 
-.forecast-display p {
+.day {
     border: 1px solid black;
-    margin: 5px 15px 5px 0px;
-    width: 200px;
-    height: 100px;
-    padding: 0px 40px 0px 0px;
+    margin: 10px 15px 5px 0px;
+    width: 300px;
+    height: 300px;
+    height: 200px;
+    font-size: 20;
+    font-family: Calibri;
 }
+
 
